@@ -13,10 +13,10 @@ Brainstorming possible workstreams
 - 
 
 # Scaling / Architecture Discussions
-- 
+What are the changes in architecture, scaling models, and deployment created by DNS Encryption requirements?
 
 # Security / Attack Resilience
-- 
+DNS Resolver deployments are based on UDP traffic. TCP is a backup path. Security defenses, architectures, and tools are built on a "DNS is UDP" world. Encrypted DNS will require every Operator to rethink their DNS Resolver deployments. 
 
 # ??
 - 
